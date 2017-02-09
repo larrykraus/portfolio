@@ -177,9 +177,10 @@ hr.small {
 .callout {
     display: table;
     width: 100%;
-    height: 400px;
+    height: 500px;
     color: #fff;
-    background: url(../img/callout.jpg) no-repeat center center scroll;
+    background: url(../img/IMG_2767.jpg) no-repeat center center scroll;
+    filter: saturate(120%);
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
@@ -265,17 +266,24 @@ div.circle {
     color: white;
 }
 
-.bottomBar, .topBar {
-    background-color: #355e3b;
+.bottomBar {
+    /*background-color: #355e3b;*/
+    background-color: #3E454C;
 }
 
 .midText {
     margin-right: 15%;
     margin-left: 15%;
+    margin-bottom: 20px;
+    color: #3E454C;
+}
+
+.portText {
+    color: #3E454C;   
 }
 
 .fa-linkedin, .fa-github, .fa-envelope, .fa-instagram {
-    color: rgb(226, 160, 66);
+    color: #2185C5;
 }
 
 .shieldLogo {
@@ -284,6 +292,50 @@ div.circle {
     z-index: +1;
 }
 
+.midHR {
+    width: 15%;
+}
+
 .bottomHR {
     width: 17%;
+}
+
+#myEmail {
+    color: #FF7F66;
+}
+
+.referenceImg {
+    height: 30%;
+    width: 30%;
+    border-radius: 20px;
+    border: 2px solid #FF7F66;
+}
+
+.referenceQuote {
+    margin-right: 6%;
+    margin-left: 6%;
+}
+
+.referencePosition {
+    color: #FF7F66;
+}
+
+.fa-exchange, .fa-database, .fa-code {
+    color: #FF7F66;
+}
+
+#services {
+    background-color: #355e3b;
+}
+
+.bottomText {
+    color: #3E454C;
+}
+
+.copeText {
+    margin-top: 220px;
+}
+
+.item1 {
+    height: 230px;
 }
