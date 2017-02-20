@@ -1,5 +1,4 @@
 /* Global Styles */
-
 html,
 body {
     width: 100%;
@@ -11,7 +10,6 @@ body {
 }
 
 .text-vertical-center {
-
     text-align: center;
     vertical-align: middle;
 }
@@ -24,7 +22,6 @@ body {
 }
 
 /* Custom Button Styles */
-
 .btn-dark {
     border-radius: 0;
     color: #fff;
@@ -52,13 +49,11 @@ body {
 }
 
 /* Custom Horizontal Rule */
-
 hr.small {
     max-width: 100px;
 }
 
 /* Side Menu */
-
 #sidebar-wrapper {
     z-index: 1000;
     position: fixed;
@@ -143,7 +138,6 @@ hr.small {
 }
 
 /* Header */
-
 .header {
     display: table;
     position: relative;
@@ -156,24 +150,50 @@ hr.small {
     -o-background-size: cover;
 }
 
-/* About */
+.headingText {
+    clear: both;
+    color: white;
+}
 
+.clipCircle {
+    max-width: 100%;
+    max-height: auto;
+    width: 15%;
+    height: auto;
+    border-radius: 60px;
+    border: 3px solid white;
+    margin-top: 40px;
+    margin-bottom: 35px;
+    margin-left: 42.5%;
+}
+
+/* About */
 .about {
     padding: 50px 0;
 }
 
-/* Services */
-
-.services {
-    padding: 50px 0;
+.midText {
+    margin-right: 15%;
+    margin-left: 15%;
+    margin-bottom: 20px;
+    color: #3E454C;
 }
 
-.service-item {
+/* Skills */
+.skills {
+    padding: 50px 0;
+    background-color: #355e3b;
+}
+
+.skills-item {
     margin-bottom: 30px;
 }
 
-/* Callout */
+.fa-exchange, .fa-database, .fa-code {
+    color: #FF7F66;
+}
 
+/* Callout */
 .callout {
     display: table;
     width: 100%;
@@ -187,8 +207,11 @@ hr.small {
     -o-background-size: cover;
 }
 
-/* Portfolio */
+.copeText {
+    margin-top: 220px;
+}
 
+/* Portfolio */
 .portfolio {
     padding: 50px 0;
 }
@@ -205,103 +228,25 @@ hr.small {
     opacity: 0.8;
 }
 
-/* Call to Action */
-
-.call-to-action {
-    padding: 50px 0;
-}
-
-.call-to-action .btn {
-    margin: 10px;
-}
-
-/* Map */
-
-.map {
-    height: 500px;
-}
-
-@media(max-width:768px) {
-    .map {
-        height: 75%;
-    }
-}
-
-.map iframe {
-    pointer-events: none;
-}
-
-/* Footer */
-
-footer {
-    padding: 100px 0;
-}
-
-#to-top {
-  display: none;
-  position: fixed;
-  bottom: 5px;
-  right: 5px;
-}
-
-div.circle {
-    display: inline-block;
-
-}
-
-.clipCircle {
-    max-width: 100%;
-    max-height: auto;
-    width: 15%;
-    height: auto;
-    border-radius: 60px;
-    border: 3px solid white;
-    margin-top: 40px;
-    margin-bottom: 35px;
-    margin-left: 42.5%;
-}
-
-.headingText {
-    clear: both;
-    color: white;
-}
-
-.bottomBar {
-    /*background-color: #355e3b;*/
-    background-color: #3E454C;
-}
-
-.midText {
-    margin-right: 15%;
-    margin-left: 15%;
-    margin-bottom: 20px;
-    color: #3E454C;
-}
-
 .portText {
     color: #3E454C;   
 }
 
-.fa-linkedin, .fa-github, .fa-envelope, .fa-instagram {
-    color: #2185C5;
-}
-
-.shieldLogo {
-    height: 30px;
-    position: fixed;
-    z-index: +1;
+.item1 {
+    height: 230px;
 }
 
 .midHR {
     width: 15%;
 }
 
-.bottomHR {
-    width: 17%;
+/* References */
+.call-to-action {
+    padding: 50px 0;
 }
 
-#myEmail {
-    color: #FF7F66;
+.call-to-action .btn {
+    margin: 10px;
 }
 
 .referenceImg {
@@ -320,26 +265,38 @@ div.circle {
     color: #FF7F66;
 }
 
-.fa-exchange, .fa-database, .fa-code {
-    color: #FF7F66;
+.bottomBar {
+    background-color: #3E454C;
 }
 
-#services {
-    background-color: #355e3b;
-}
-
-.bottomText {
-    color: #3E454C;
-}
-
-.copeText {
-    margin-top: 220px;
-}
-
-.item1 {
-    height: 230px;
+.bottomHR {
+    width: 17%;
 }
 
 .darren {
     height: 105px;
+}
+
+/* Footer */
+footer {
+    padding: 100px 0;
+}
+
+#to-top {
+  display: none;
+  position: fixed;
+  bottom: 5px;
+  right: 5px;
+}
+
+#myEmail {
+    color: #FF7F66;
+}
+
+.fa-linkedin, .fa-github, .fa-envelope, .fa-instagram {
+    color: #2185C5;
+}
+
+.bottomText {
+    color: #3E454C;
 }
